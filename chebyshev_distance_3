@@ -1,0 +1,4 @@
+# distance.py
+
+def chebyshev_distance_3(point1, point2):
+    return max(map(lambda x: abs(x[0] - x[1]), zip(point1, point2)))

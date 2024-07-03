@@ -1,5 +1,0 @@
-# distance.py
-
-def chebyshev_distance_2(point1, point2):
-    distances = [abs(a - b) for a, b in zip(point1, point2)]
-    return max(distances)
